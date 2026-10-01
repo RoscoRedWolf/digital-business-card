@@ -85,6 +85,10 @@ a:hover {
   margin-bottom: 34px;
 }
 
+.email-btn:hover {
+  cursor: pointer;
+}
+
 .envelope {
   width: 16px;
   height: 16px;
