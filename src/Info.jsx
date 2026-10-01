@@ -12,10 +12,12 @@ export default function Info() {
       <h1 className='name'>Rosco RedWolf</h1>
       <h3 className='title'>Frontend Developer</h3>
       <p className='github-link'><a href='https://github.com/RoscoRedWolf'>Rosco Redwolf GitHub</a></p>
-      <button className='email-btn'>
-        <img className='envelope' src={envelope} />
-        Email
-      </button>
+      <a href="mailto:your-email@example.com">
+        <button className='email-btn'>
+          <img className='envelope' src={envelope} />
+          Email
+        </button>
+      </a>
     </>
   );
 }
