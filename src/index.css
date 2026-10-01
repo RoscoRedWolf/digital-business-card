@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Ensure html and body don't constrain the height */
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card-container {
+  min-height: 800px;
+  min-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23252c;
+}
+
+.card {
+  width: 317px;
+  height: 780px;  
+  box-sizing: border-box; 
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1b21;
+}
+
+.rosco-profile-pic {
+  width: 100%;
+}
+
+.name {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 30px 0 3px;
+}
+
+.title {
+  color: #f3bf99;
+  font-size: 12.8px;
+  text-align: center;
+  margin-bottom: 9px;
+}
+
+.github-link {
+  text-align: center;
+  color: #f5f5f5;
+  font-size: 10.25px;
+  margin-bottom: 14px;
+}
+
+.email-btn {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  width: 247px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px 0;
+  margin-bottom: 34px;
+}
+
+.envelope {
+  width: 16px;
+  height: 16px;
+}
+
+.header {
+  width: 247px;
+  height: 21px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #f5f5f5;
+  margin-bottom: 5px;
+}
+
+.info-text {
+  width: 247px;
+  height: 61px;
+  font-size: 10.24px;
+  color: #f5f5f5;
+  margin-bottom: 18px;
+}
+
+.footer {
+  border-top: 15px solid #23252c;
+  color: white;
+  background-color: #161619;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.social-icons {
+  width: 40px;
+  padding: 15px 0;
+}
+
